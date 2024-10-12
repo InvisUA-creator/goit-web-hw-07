@@ -9,9 +9,6 @@ session = Session()
 fake = Faker()
 
 
-Session = sessionmaker(bind=engine)
-session = Session()
-fake = Faker()
 
 # Додавання груп
 groups = [Group(name=f"Group {i}") for i in range(1, 4)]
